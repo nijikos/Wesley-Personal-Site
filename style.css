@@ -1,0 +1,186 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+p {
+  font-family: "Lato", sans-serif;
+}
+
+p {
+  line-height: 1.5em;
+}
+
+a {
+  transition: 0.6s;
+  text-decoration: none;
+  color: black;
+  line-height: 1.5em;
+}
+
+a:hover {
+  color: rgb(158, 78, 2);
+}
+
+a:visited {
+  color: rgb(226, 105, 49);
+}
+
+body hr {
+  border-top: 10px;
+  border-color: red;
+  border-style: solid;
+}
+/* ==================================  NOTE: SECTION 1: HEADER BACKGROUND */
+.headerContainer {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/background2.jpg);
+  /* background-image: url(images/background2.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 80vh;
+}
+
+.headerInner {
+  position: absolute;
+  top: 40%;
+  text-align: center;
+  width: 100%;
+}
+
+.headerInner h1 {
+  font-size: 4em;
+  font-weight: 700;
+  font-family: "Merriweather", serif;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.headerInner h2 {
+  font-size: 2em;
+  color: white;
+}
+
+.companyButton {
+  font-size: 1.3em;
+  color: white;
+  border: 3px solid white;
+  background-color: transparent;
+  padding: 10px 20px;
+  margin: 30px 0;
+  cursor: pointer;
+}
+/* ==================================  NOTE: SECTION 2: PROFILE */
+.profileContainer {
+  background-color: white;
+  width: 100vw;
+  padding: 100px 0;
+}
+
+.profileContainer h1,
+.expContainer h1 {
+  font-size: 2.5em;
+}
+.profileContainer h2,
+.expContainer h2 {
+  font-size: 1.6em;
+}
+
+.profileContainer h3,
+.expContainer h3 {
+  font-size: 1.3em;
+}
+
+.profileContainer p,
+.expContainer p {
+  font-size: 1em;
+}
+
+.profileTitle {
+  /* background-color: powderblue; */
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+  padding: 30px;
+}
+
+.profileData {
+  display: flex;
+  width: 60%;
+  margin: 50px auto;
+}
+.profileData h3,
+.profileData p,
+.expContainer h3,
+.expContainer p {
+  margin-bottom: 0.8em;
+}
+.profileAboutMe,
+.profilePicture,
+.profileDetails {
+  /* background-color: pink; */
+  width: 100%;
+}
+.profileAboutMe {
+}
+
+.profilePicture {
+  text-align: center;
+}
+
+.profilePicture img {
+  width: 300px;
+  height: 300px;
+}
+
+.profileDetails {
+}
+/* ============================================================  NOTE: SECTION 3 :  EXPERIENCES */
+.expContainer {
+  background-color: rgb(238, 238, 238);
+  width: 100vw;
+  padding: 100px 0;
+}
+
+.expTitle {
+  margin-bottom: 30px;
+}
+.expInner {
+  /* background-color: pink; */
+  width: 60%;
+  margin: 0 auto;
+}
+.expLists {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.expListsLeft {
+  width: 30%;
+}
+
+.expListsRight {
+  width: 70%;
+}
+.careerContainer {
+}
+/* ==================================  NOTE:  */
+.footer {
+  position: relative;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(images/background2.jpg);
+  /* background-image: url(images/background2.jpg); */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  height: 10vh;
+}

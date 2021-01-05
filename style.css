@@ -36,6 +36,10 @@ body hr {
   border-color: red;
   border-style: solid;
 }
+
+li {
+  padding-left: 1em;
+}
 /* ==================================  NOTE: SECTION 1: HEADER BACKGROUND */
 .headerContainer {
   position: relative;
